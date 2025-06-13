@@ -1,0 +1,144 @@
+/*전체 공통 영역*/
+    /*header 영역*/
+header {
+    background-color: #6e90e6;
+    color: #000;
+    text-align: center;
+    padding: 14px 10px 20px;
+}
+    /*footer 영역*/
+footer {
+    background-color: #6e90e6;
+    color: #fff;
+    text-align: center;
+    padding: 14px 10px 20px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+/*인덱스 단일 영역*/
+.topPage {
+    background-color:#8ce6ff
+}
+    /*header 영역*/
+        /*소개글 영역*/
+.topPage h1 {
+    font-size: 60px;
+}
+
+
+.topPage p {
+    font-size: 20px;
+    
+}
+
+        /*image 영역*/
+.topPage img {
+    width: 50%
+}
+
+        /*nav 영역*/
+.topPage header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px 10;
+}
+
+.topPage header nav ul li {
+    margin-left: 80px;
+}
+
+.topPage header nav ul li a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.topPage header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+    /*main 영역*/
+        /*link영역 */
+.topPage main a {
+    background-color: #ffffff;
+    text-align: center;
+    display: block;
+    padding: 25px 0;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.topPage main ul {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.topPage main li {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+/*서브페이지 공통 영역*/
+    /*header 영역*/
+.subPage header {
+        font-size: 35px;
+    }
+    /*main 영역*/
+        /*Home버튼*/
+.subPage main a {
+    display: block;
+    background-color: #8ce6ff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0; 
+}
+
+/*프로필 단일 영역*/
+.personal h2 {
+    font-size: 15px;
+    color: #6e90e6;
+    }
+
+.personal p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.career h2 {
+    font-size: 15px;
+    color: #6e90e6;
+}
+
+.career p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*포폴 단일 영역*/
+.sample img {
+    width: 250px;
+}
+
+
+
+
+
+/*컨텍 단일 영역*/
+.contact {
+    font-size: 20px;
+}
+
+.contact h2 {
+    color: #6e90e6;
+}
